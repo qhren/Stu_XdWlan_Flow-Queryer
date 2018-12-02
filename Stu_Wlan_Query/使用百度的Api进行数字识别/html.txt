@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="renderer" content="webkit">
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="QTBhVktqQXlscxsxHzMNFRkHVy4iJyU9CwNRJAwNG0BySVADGwIgTw==">
+    <title>首页</title>
+    <link href="/assets/df9a9e58/css/bootstrap.css" rel="stylesheet">
+<link href="/assets/7e7ad334/css/kv-grid.min.css" rel="stylesheet">
+<link href="/assets/14118e53/dist/css/bootstrap-dialog.min.css" rel="stylesheet">
+<link href="/assets/7e7ad334/css/jquery.resizableColumns.min.css" rel="stylesheet">
+<link href="/assets/7e7ad334/css/kv-grid-expand.min.css" rel="stylesheet">
+<link href="/assets/a020ce55/sweetalert.css" rel="stylesheet">
+<link href="/assets/9d11e37e/css/font-awesome.min.css" rel="stylesheet">
+<link href="/assets/bbd338b4/css/jquery.mmenu.all.css" rel="stylesheet">
+<link href="/assets/bbd338b4/extensions/widescreen/jquery.mmenu.widescreen.css" rel="stylesheet" media="all and (min-width: 1024px)">
+<link href="/css/main.css" rel="stylesheet">
+<style>.bootstrap-dialog .modal-header.bootstrap-dialog-draggable{cursor:move}</style>
+<script src="/assets/647cf415/jquery.js"></script>
+<script src="/assets/a9f317c4/js/dialog.min.js"></script>
+<script type="text/javascript">var krajeeDialog_6d7f2d25={"id":"w2"};
+var krajeeDialogDefaults_c5bc98ea={"alert":{"type":"type-info","title":"Information","buttonLabel":"<span class=\"glyphicon glyphicon-ok\"></span> Ok"},"confirm":{"type":"type-warning","title":"Confirmation","btnOKClass":"btn-warning","btnOKLabel":"<span class=\"glyphicon glyphicon-ok\"></span> Ok","btnCancelLabel":"<span class=\"glyphicon glyphicon-ban-circle\"></span> Cancel"},"prompt":{"draggable":false,"title":"Information","buttons":[{"label":"Cancel","icon":"glyphicon glyphicon-ban-circle"},{"label":"Ok","icon":"glyphicon glyphicon-ok","class":"btn-primary"}],"closable":false},"dialog":{"draggable":true,"title":"Information","buttons":[{"label":"Cancel","icon":"glyphicon glyphicon-ban-circle"},{"label":"Ok","icon":"glyphicon glyphicon-ok","class":"btn-primary"}]}};
+var krajeeDialog=new KrajeeDialog(true,krajeeDialog_6d7f2d25,krajeeDialogDefaults_c5bc98ea);
+var kvExpandRow_ca5c0139 = {"gridId":"w3","hiddenFromExport":true,"detailUrl":"","onDetailLoaded":"","expandIcon":"<span class=\"glyphicon glyphicon-expand\"></span>","collapseIcon":"<span class=\"glyphicon glyphicon-collapse-down\"></span>","expandTitle":"展开","collapseTitle":"收起","expandAllTitle":"全部展开","collapseAllTitle":"全部收起","rowCssClass":"info","animationDuration":"slow","expandOneOnly":true,"enableRowClick":false,"enableCache":true,"rowClickExcludedTags":["A","BUTTON","INPUT"],"collapseAll":false,"expandAll":false,"extraData":[]};
+
+var krajeeDialog_7f94fe21={"id":"w4"};
+var krajeeDialog=new KrajeeDialog(true,krajeeDialog_7f94fe21,krajeeDialogDefaults_c5bc98ea);
+var krajeeDialog_71cd4f22={"id":"w6"};
+var krajeeDialog=new KrajeeDialog(true,krajeeDialog_71cd4f22,krajeeDialogDefaults_c5bc98ea);
+var kvGridExp_9ee91519={"gridId":"w5","target":"_popup","messages":{"allowPopups":"禁用所有阻止弹出窗口的浏览器设置来确保下载成功","confirmDownload":"确定执行操作?","downloadProgress":"正在导出文件,请稍后...","downloadComplete":"请求已经提交,你可以在文件下载成功后关闭此对话."},"exportConversions":[{"from":"<span class=\"glyphicon glyphicon-ok text-success\"></span>","to":"已激活"},{"from":"<span class=\"glyphicon glyphicon-remove text-danger\"></span>","to":"未激活"}],"showConfirmAlert":true};
+var kvGridExp_383dfdd3={"filename":"导出表格","showHeader":true,"showPageSummary":true,"showFooter":true};
+var kvGridExp_a4ed4ff3={"dialogLib":"krajeeDialog","gridOpts":kvGridExp_9ee91519,"genOpts":kvGridExp_383dfdd3,"alertMsg":"将会导出EXCEL文件以供下载","config":{"worksheet":"导出工作表","cssFile":""}};
+var title = "自服务菜单"; var warning="警告"; var cancelTitle ="取消"; var okTitle="确定";</script></head>
+
+
+<body>
+        <div class="header">
+        <img src="/images/logo_tran@50px.png" class="img-responsive" alt="Responsive image" style="height: 60px;">
+                <a class="language btn btn-info" href="/site/language?lang=en-US" data-method="post">EN</a>        <a class="logout btn btn-info" href="/site/logout" data-confirm="你确定退出？" data-method="post">退出</a>        <a class="menu hidden-lg hidden-md hidden-sm" href="#menu"></a>    </div>
+     <div class="page">
+        <nav id="menu"><ul><li class="Selected"><a href="/home"><span class="fa fa-home fa-lg"></span>首页</a></li>
+<li><a href="javascript:window.open(&quot;http://payment.xidian.edu.cn/&quot;);"><span class="fa fa-jpy fa-lg"></span>缴费</a></li>
+<li class=""><a href="#"><span class="fa fa-user fa-lg"></span>用户</a>
+<ul>
+<li><a href="/users">用户信息</a></li>
+<li><a href="/user/change-password">修改密码</a></li>
+<li><a href="/user/mac-auth">无感知认证</a></li>
+</ul>
+</li>
+<li class=""><a href="#"><span class="fa fa-th-list fa-lg"></span>日志</a>
+<ul>
+<li class=""><a href="/log/auth">认证日志</a></li>
+<li class=""><a href="/log/detail">上网明细</a></li>
+<li class=""><a href="/log/check-out">结算清单</a></li>
+</ul>
+</li></ul></nav>        <div class="content">
+                        <div class="wrap">
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+                    用户信息                    <a class="pull-right" href="/users">更多>></a>                </div>
+                <ul class="list-group"><li class="list-group-item"><span class="glyphicon glyphicon-user"></span><label class="list-group-label">用户名</label>15020188038</li>
+<li class="list-group-item"><span class="glyphicon glyphicon-th-list"></span><label class="list-group-label">姓名</label>任启宏</li>
+<li class="list-group-item"><span class="glyphicon glyphicon-info-sign"></span><label class="list-group-label">状态</label><a class="btn btn-xs btn-success">正常</a></li>
+<li class="list-group-item"><span class="glyphicon glyphicon-lock"></span><label class="list-group-label"><a href="/user/change-password">修改密码</a></label></li></ul>            </div>
+        </div>
+        <div class="col-lg-8">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+                    在线信息                    <a class="btn btn-xs btn-danger" href="/home/onekey" style="margin-left: 30px;" data-confirm="您确定执行一键下线？" data-method="post">一键下线</a>                </div>
+                <div class="table-responsive">
+                    <div id="w1" class="grid-view hide-resize" data-krajee-grid="kvGridInit_9bad964f"><div id="w1-container" class="table-responsive kv-grid-container"><table class="kv-grid-table table table-bordered table-striped kv-table-wrap"><colgroup><col>
+<col>
+<col>
+<col class="skip-export"></colgroup>
+<thead>
+
+<tr><th data-col-seq="1">IP地址</th><th data-col-seq="2">上线时间</th><th data-col-seq="3">已用流量</th><th class="kv-align-center kv-align-middle skip-export" style="width:80px;" data-col-seq="7">操作</th></tr>
+
+</thead>
+<tbody>
+<tr data-key="607106804"><td data-col-seq="1">10.177.2.70</td><td data-col-seq="2">2018-12-01 17:46:30</td><td data-col-seq="3">1.747GB</td><td class="skip-export kv-align-center kv-align-middle" style="width:80px;" data-col-seq="7"><a class="btn btn-xs btn-danger" href="/home/delete?id=607106804" title="下线" data-confirm="确定下线此设备?" data-method="post" data-toggle="tooltip">下线</a></td></tr>
+</tbody></table></div>  </div>                </div>
+            </div>
+        </div>
+    </div>
+    <div id="w3-pjax" data-pjax-container="" data-pjax-push-state data-pjax-timeout="1000"><div id="w3" class="grid-view hide-resize" data-krajee-grid="kvGridInit_4d208264"><div class="panel panel-default">
+    <div class="panel-heading">    <div class="pull-right">
+        <div class="summary">第<b>1-1</b>条，共<b>1</b>条数据.</div>
+    </div>
+    <h3 class="panel-title">
+        <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span> 套餐信息
+    </h3>
+    <div class="clearfix"></div></div>
+    <div class="kv-panel-before">    <div class="pull-right">
+        <div class="btn-toolbar kv-grid-toolbar" role="toolbar">
+            
+        </div>    
+    </div>
+    
+    <div class="clearfix"></div></div>
+    <div id="w3-container" class="table-responsive kv-grid-container"><table class="kv-grid-table table table-hover table-bordered kv-table-wrap"><thead>
+
+<tr><th data-col-seq="1">套餐名称</th><th data-col-seq="3">已用流量</th><th data-col-seq="7">套餐内剩余流量</th><th data-col-seq="8">充值剩余流量(累计)</th><th data-col-seq="11">结算日期</th><th data-col-seq="12">套餐到期时间</th></tr>
+
+</thead>
+<tbody>
+<tr data-key="11"><td data-col-seq="1">丁香学生10G</td><td data-col-seq="3">1.747GB</td><td data-col-seq="7">8.253GB</td><td data-col-seq="8">3.05GB</td><td data-col-seq="11">2018-12-25</td><td data-col-seq="12">1970-01-01</td></tr>
+</tbody></table></div>
+    <div class="kv-panel-after"></div>
+    
+</div></div></div>    <div id="w5-pjax" data-pjax-container="" data-pjax-push-state data-pjax-timeout="1000"><div id="w5" class="grid-view hide-resize" data-krajee-grid="kvGridInit_57ed77ce"><div class="panel panel-default">
+    <div class="panel-heading">    <div class="pull-right">
+        <div class="summary">第<b>1-2</b>条，共<b>2</b>条数据.</div>
+    </div>
+    <h3 class="panel-title">
+        <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span> 无感知认证
+    </h3>
+    <div class="clearfix"></div></div>
+    <div class="kv-panel-before">    <div class="pull-right">
+        <div class="btn-toolbar kv-grid-toolbar" role="toolbar">
+            
+        </div>    
+    </div>
+    
+    <div class="clearfix"></div></div>
+    <div id="w5-container" class="table-responsive kv-grid-container"><table class="kv-grid-table table table-hover table-bordered kv-table-wrap"><colgroup><col>
+<col>
+<col>
+<col class="skip-export"></colgroup>
+<thead>
+
+<tr><th class="kartik-sheet-style kv-align-center kv-align-middle" style="width:50px;" data-col-seq="0">&nbsp;</th><th data-col-seq="1">mac地址</th><th data-col-seq="2">备注</th><th class="kartik-sheet-style kv-align-center kv-align-middle skip-export" style="width:80px;" data-col-seq="3">操作</th></tr>
+
+</thead>
+<tbody>
+<tr data-key="0"><td class="kartik-sheet-style kv-align-center kv-align-middle" style="width:50px;" data-col-seq="0">1</td><td data-col-seq="1">a8:0c:63:77:58:07</td><td data-col-seq="2"></td><td class="skip-export kv-align-center kv-align-middle" style="width:80px;" data-col-seq="3"><a href="/user/delete-mac-auth?mac=a8%3A0c%3A63%3A77%3A58%3A07" title="解绑该无感知认证!" data-confirm="删除此条MAC" data-method="post" data-toggle="tooltip"><span class="glyphicon glyphicon-trash"></span></a></td></tr>
+<tr data-key="1"><td class="kartik-sheet-style kv-align-center kv-align-middle" style="width:50px;" data-col-seq="0">2</td><td data-col-seq="1">ac:e0:10:0d:a6:81</td><td data-col-seq="2"></td><td class="skip-export kv-align-center kv-align-middle" style="width:80px;" data-col-seq="3"><a href="/user/delete-mac-auth?mac=ac%3Ae0%3A10%3A0d%3Aa6%3A81" title="解绑该无感知认证!" data-confirm="删除此条MAC" data-method="post" data-toggle="tooltip"><span class="glyphicon glyphicon-trash"></span></a></td></tr>
+</tbody></table></div>
+    <div class="kv-panel-after"></div>
+    
+</div></div></div></div>
+        </div>
+    </div>
+    <script src="/assets/df9a9e58/js/bootstrap.js"></script>
+<script src="/assets/14118e53/dist/js/bootstrap-dialog.min.js"></script>
+<script src="/assets/7e7ad334/js/jquery.resizableColumns.min.js"></script>
+<script src="/assets/627ca34c/yii.js"></script>
+<script src="/assets/627ca34c/yii.gridView.js"></script>
+<script src="/assets/7e7ad334/js/kv-grid-expand.min.js"></script>
+<script src="/assets/d24cca36/jquery.pjax.js"></script>
+<script src="/assets/7e7ad334/js/kv-grid-export.min.js"></script>
+<script src="/assets/a020ce55/sweetalert.min.js"></script>
+<!--[if lte IE 9]>
+<script src="/assets/c2b4dde9/respond.min.js"></script>
+<![endif]-->
+<!--[if lte IE 9]>
+<script src="/assets/cd6e7636/html5shiv.min.js"></script>
+<![endif]-->
+<script src="/assets/bbd338b4/js/jquery.mmenu.all.min.js"></script>
+<script src="/js/main.js"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+var kvGridInit_9bad964f=function(){
+$('#w1-container').resizableColumns('destroy').resizableColumns({"store":null,"resizeFromBody":false});
+};
+kvGridInit_9bad964f();
+jQuery('#w1').yiiGridView({"filterUrl":"\/home","filterSelector":"#w1-filters input, #w1-filters select"});
+kvExpandRow(kvExpandRow_ca5c0139);
+var kvGridInit_4d208264=function(){
+$('#w3-container').resizableColumns('destroy').resizableColumns({"store":null,"resizeFromBody":false});
+};
+kvGridInit_4d208264();
+jQuery("#w3-pjax").on('pjax:timeout', function(e){e.preventDefault()}).on('pjax:send', function(){jQuery("#w3-container").addClass('kv-grid-loading')}).off('pjax:complete.5d4fa1a9').on('pjax:complete.5d4fa1a9', function(){setTimeout(kvGridInit_4d208264, 2500);jQuery("#w3-container").removeClass('kv-grid-loading');
+});
+jQuery('#w3').yiiGridView({"filterUrl":"\/home","filterSelector":"#w3-filters input, #w3-filters select"});
+jQuery(document).pjax("#w3-pjax a", "#w3-pjax", {"push":true,"replace":false,"timeout":1000,"scrollTo":false});
+jQuery(document).on('submit', "#w3-pjax form[data-pjax]", function (event) {jQuery.pjax.submit(event, '#w3-pjax', {"push":true,"replace":false,"timeout":1000,"scrollTo":false});});
+var kvGridInit_57ed77ce=function(){
+$('#w5 .export-xls').gridexport(kvGridExp_a4ed4ff3);$('#w5-container').resizableColumns('destroy').resizableColumns({"store":null,"resizeFromBody":false});
+};
+kvGridInit_57ed77ce();
+jQuery('#w7').button();
+jQuery("#w5-pjax").on('pjax:timeout', function(e){e.preventDefault()}).on('pjax:send', function(){jQuery("#w5-container").addClass('kv-grid-loading')}).off('pjax:complete.3318e50a').on('pjax:complete.3318e50a', function(){setTimeout(kvGridInit_57ed77ce, 2500);jQuery("#w5-container").removeClass('kv-grid-loading');
+});
+jQuery('#w5').yiiGridView({"filterUrl":"\/home","filterSelector":"#w5-filters input, #w5-filters select"});
+jQuery(document).pjax("#w5-pjax a", "#w5-pjax", {"push":true,"replace":false,"timeout":1000,"scrollTo":false});
+jQuery(document).on('submit', "#w5-pjax form[data-pjax]", function (event) {jQuery.pjax.submit(event, '#w5-pjax', {"push":true,"replace":false,"timeout":1000,"scrollTo":false});});
+});</script>    
+    <footer class="footer footer-fixed-bottom hidden-xs">
+        <div class="container">
+            <p>© Copyright 西安电子科技大学 2017</p>        </div>
+    </footer>
+</body>
+</html>
